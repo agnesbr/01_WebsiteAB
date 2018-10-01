@@ -1,0 +1,153 @@
+.Amatic_SC {
+  font-family: "Amatic SC", cursive;
+}
+
+.Comfortaa {
+  font-family: "Comfortaa", cursive;
+  letter-spacing: 0.2em;
+}
+
+.Abril_Fatface {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 0.2em;
+}
+
+.Nixie_One {
+  font-family: "Nixie One", cursive;
+  letter-spacing: 0.1em;
+}
+
+.Bungee_Hairline {
+  font-family: "Bungee Hairline", cursive;
+}
+
+.bg_img_intro {
+  background-image: url("https://images.unsplash.com/photo-1521249664898-864e6c1b6d5c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7111c5ca32f0551dc6966eeeb08d01c&auto=format&fit=crop&w=1650&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.bg_img_pat {
+  background-image: url("https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=58321e04954daa3a0e2d3b1dc2a927da&auto=format&fit=crop&w=1650&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+.bg_img_sport {
+  background-image: url("https://images.unsplash.com/photo-1532471965572-092fb677a6a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f19e17263e2cb9cdb2de42ef40a35933&auto=format&fit=crop&w=2734&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Nixie One", cursive;
+  letter-spacing: 0.1em;
+}
+
+.box_large {
+  height: 100vh;
+}
+
+.bg-black {
+  background-color: black;
+  display: block;
+}
+
+.headline_header {
+  font-family: "Nixie One", cursive;
+  letter-spacing: 0.1em;
+  font-size: 7em;
+  line-height: 90%;
+  text-align: left;
+  padding: 0.5em 1em 0.5em 1.2em;
+}
+
+.headline_row {
+  font-family: "Nixie One", cursive;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+  font-size: 4em;
+  hyphens: manual;
+}
+
+.box_transparent {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.box_transparent_30 {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding: 1.2em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+a,
+a.icon,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: salmon;
+  text-decoration: none;
+}
+
+.nav_flex_contaier {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-flex {
+  flex-basis: 10em;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.overflow_scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.content_referenzen {
+  width: 200%;
+}
+
+.box_referenz {
+  padding: 0.6em;
+}
+
+/* -------*/
+
+.wrapper_nav {
+  height: 5em;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav_item {
+  width: 10em;
+  border: solid 1px white;
+  margin: 0 0px;
+  color: white;
+  text-align: center;
+}
