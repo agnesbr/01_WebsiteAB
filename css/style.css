@@ -52,7 +52,7 @@ body {
 }
 
 .box_large {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .bg-black {
@@ -104,18 +104,28 @@ a:hover {
   text-decoration: none;
 }
 
-.nav_flex_contaier {
+.nav_container {
+  background-color: red;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  width: 100%;
   justify-content: center;
-  align-content: center;
+  flex-wrap: wrap;
 }
 
-.nav-flex {
-  flex-basis: 10em;
-  flex-shrink: 1;
-  flex-grow: 1;
+.nav_container > div {
+  background-color: aqua;
+  flex: 1;
+}
+
+.nav_container > div {
+  background-color: aqua;
+  flex: 3;
+}
+
+.nav_container > .nav_item_test {
+  background-color: rgb(81, 255, 0);
+  flex: 2;
 }
 
 .overflow_scroll {
