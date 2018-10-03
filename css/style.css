@@ -1,47 +1,5 @@
-.Amatic_SC {
-  font-family: "Amatic SC", cursive;
-}
-
-.Comfortaa {
-  font-family: "Comfortaa", cursive;
-  letter-spacing: 0.2em;
-}
-
-.Abril_Fatface {
-  font-family: "Abril Fatface", cursive;
-  letter-spacing: 0.2em;
-}
-
-.Nixie_One {
-  font-family: "Nixie One", cursive;
-  letter-spacing: 0.1em;
-}
-
-.Bungee_Hairline {
-  font-family: "Bungee Hairline", cursive;
-}
-
-.bg_img_intro {
-  background-image: url("https://images.unsplash.com/photo-1521249664898-864e6c1b6d5c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7111c5ca32f0551dc6966eeeb08d01c&auto=format&fit=crop&w=1650&q=80");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
-}
-
-.bg_img_pat {
-  background-image: url("https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=58321e04954daa3a0e2d3b1dc2a927da&auto=format&fit=crop&w=1650&q=80");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
-}
-.bg_img_sport {
-  background-image: url("https://images.unsplash.com/photo-1532471965572-092fb677a6a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f19e17263e2cb9cdb2de42ef40a35933&auto=format&fit=crop&w=2734&q=80");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+* {
+  box-sizing: border-box;
 }
 
 html,
@@ -50,6 +8,135 @@ body {
   font-family: "Nixie One", cursive;
   letter-spacing: 0.1em;
 }
+
+/* fonts */
+
+.Nixie_One {
+  font-family: "Nixie One", cursive;
+  letter-spacing: 0.1em;
+}
+
+
+
+/* bg images fixed */
+
+.bg_img_fixed {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.intro {
+  background-image: url("https://images.unsplash.com/photo-1521249664898-864e6c1b6d5c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7111c5ca32f0551dc6966eeeb08d01c&auto=format&fit=crop&w=1650&q=80");
+  background-attachment: fixed;
+}
+
+.pat {
+  background-image: url("https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=58321e04954daa3a0e2d3b1dc2a927da&auto=format&fit=crop&w=1650&q=80");
+  background-attachment: fixed;
+}
+.sport {
+  background-image: url("https://images.unsplash.com/photo-1532471965572-092fb677a6a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f19e17263e2cb9cdb2de42ef40a35933&auto=format&fit=crop&w=2734&q=80");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.box_transparent {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#triangle-topleft {
+	width: 0;
+	height: 0;
+	border-top: 80px solid rgba(255, 255, 255, 0.9);
+  border-right: 80px solid transparent;
+  position: absolute;
+  bottom:-80px;
+  
+}
+
+/* social media fixed top right */
+.wrapper-social-fixed {
+  position: fixed;
+  right: 0;
+  top: 300px;
+  z-index: 99999;
+}
+
+.social-icon-top {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  margin: 0.2em 0;
+  text-align: center;
+  font-size: 3em;
+  padding-left: 3px;
+  border-left: 3px solid white;
+}
+
+/* anchor fixed - back to top */
+.arrow-up {
+  position: fixed;
+  left: 50%;
+  bottom: 10px;
+  z-index: 99999;
+  width: 43px;
+  height: 43px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  font-size: 3em;
+  color: black;
+}
+.arrow-up:hover {
+  color: salmon;
+  point
+}
+
+.arrow-visible{
+  visibility: visible;
+}
+
+/* nav --*/
+
+.wrapper_nav {
+  height: 5em;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav_item {
+  width: 10em;
+  border: solid 1px white;
+  margin: 0 0px;
+  color: white;
+  text-align: center;
+}
+
+.nav_container {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav_container > div {
+  background-color: aqua;
+  flex-basis: 7em;
+}
+
+/* box styles */
 
 .box_large {
   min-height: 100vh;
@@ -77,8 +164,15 @@ body {
   hyphens: manual;
 }
 
-.box_transparent {
-  background-color: rgba(255, 255, 255, 0.9);
+
+
+.box_iam {
+  display: flex;
+  height: 16em;
+}
+
+.box_iam > h2 {
+  color: red;
 }
 
 .box_transparent_30 {
@@ -92,42 +186,27 @@ body {
 .underline {
   text-decoration: underline;
 }
+
 a,
 a.icon,
 a:active {
   color: white;
   text-decoration: none;
 }
+.arrow-up > a.icon
+{
+  color: black;
+}
 
-a:hover {
+a:hover,
+.arrow-up > a:hover{
   color: salmon;
   text-decoration: none;
 }
 
-.nav_container {
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 
-.nav_container > div {
-  background-color: aqua;
-  flex: 1;
-}
 
-.nav_container > div {
-  background-color: aqua;
-  flex: 3;
-}
-
-.nav_container > .nav_item_test {
-  background-color: rgb(81, 255, 0);
-  flex: 2;
-}
-
+/* references */
 .overflow_scroll {
   overflow-x: scroll;
   overflow-y: hidden;
@@ -139,25 +218,4 @@ a:hover {
 
 .box_referenz {
   padding: 0.6em;
-}
-
-/* -------*/
-
-.wrapper_nav {
-  height: 5em;
-  width: 100vw;
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.nav_item {
-  width: 10em;
-  border: solid 1px white;
-  margin: 0 0px;
-  color: white;
-  text-align: center;
 }
