@@ -6487,19 +6487,22 @@ h1.index {
   line-height: 100%;
   font-size: 4em;
   hyphens: manual;
-  margin-top: 0.7em; }
+  /* margin-top: 0.7em;*/ }
 
 .headline_row_no_m {
   font-family: "Nixie One", cursive;
   letter-spacing: 0.1em;
   line-height: 100%;
   font-size: 4em;
-  hyphens: manual;
-  padding-top: em; }
+  hyphens: manual; }
+
+.box_referenzes_m {
+  padding-top: 1em; }
 
 .box_iam {
   display: flex;
-  height: 45vh; }
+  height: 45vh;
+  width: 100vw; }
 
 .box_iam > h2 {
   color: black; }
@@ -6531,7 +6534,9 @@ a:hover,
 /* references */
 .overflow_scroll {
   overflow-x: scroll;
-  overflow-y: hidden; }
+  overflow-y: hidden;
+  padding-left: 1.5rem;
+  padding-rigt: 1.5rem; }
 
 .content_referenzen {
   width: 200%; }

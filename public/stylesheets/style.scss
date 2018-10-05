@@ -209,7 +209,7 @@ h1.index {
   line-height: 100%;
   font-size: 4em;
   hyphens: manual;
-  margin-top: 0.7em;
+  /* margin-top: 0.7em;*/
 }
 
 .headline_row_no_m {
@@ -218,12 +218,17 @@ h1.index {
   line-height: 100%;
   font-size: 4em;
   hyphens: manual;
-  padding-top: em;
+  padding-left: 5rem;
+}
+
+.box_referenzes_m {
+  padding-top: 1em;
 }
 
 .box_iam {
   display: flex;
   height: 45vh;
+  width: 100vw;
 }
 
 .box_iam > h2 {
@@ -262,6 +267,8 @@ a:hover,
 .overflow_scroll {
   overflow-x: scroll;
   overflow-y: hidden;
+  padding-left: 1.5rem;
+  padding-rigt: 1.5rem;
 }
 
 .content_referenzen {
