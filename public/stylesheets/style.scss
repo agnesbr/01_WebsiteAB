@@ -1,6 +1,10 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "grid";
+@import "header";
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -17,21 +21,6 @@ body {
 .Nixie_One {
   font-family: "Nixie One", cursive;
   letter-spacing: 0.1em;
-}
-
-/* head intrro */
-.intro_zeile {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  background-color: black;
-  color: white;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
-}
-
-h1.index {
-  font-size: 1em;
 }
 
 /* vh hights */
@@ -108,35 +97,6 @@ h1.index {
 
 .box_transparent {
   background-color: rgba(255, 255, 255, 0.9);
-}
-
-#triangle-topleft {
-  width: 0;
-  height: 0;
-  border-top: 80px solid rgba(255, 255, 255, 0.9);
-  border-right: 80px solid transparent;
-  position: absolute;
-  bottom: -80px;
-}
-
-/* social media fixed top right */
-.wrapper-social-fixed {
-  position: fixed;
-  right: 0;
-  top: 250px;
-  z-index: 99999;
-}
-
-.social-icon-top {
-  display: block;
-  width: 70px;
-  height: 70px;
-  background-color: black;
-  margin: 0.2em 0;
-  text-align: center;
-  font-size: 3em;
-  padding-left: 3px;
-  border-left: 3px solid white;
 }
 
 /* anchor fixed - back to top */
@@ -226,7 +186,7 @@ h1.index {
 
 .box_iam {
   display: flex;
-  height: 45vh;
+  min-height: 45vh;
   width: 100vw;
   padding-bottom: 3rem;
 }
@@ -279,4 +239,8 @@ a:hover,
   padding: 0.6em;
 }
 
-@import "header";
+.quote::before {
+  content: url ("images/ab-freiform.png/10/10");
+  color: red;
+  position: absolute;
+}
