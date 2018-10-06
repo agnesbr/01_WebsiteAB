@@ -87,18 +87,17 @@ h1.index {
   background-attachment: fixed;
 }
 
-/*
 .pat {
   background-image: url("https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-0.3.5&s=98bb3e4a0d0beb27d19c8ba645c7421e&auto=format&fit=crop&w=1650&q=80");
   background-attachment: fixed;
   background-position: center;
-}*/
+}
 
-.pat {
+/*.pat {
   background-image: url("https://images.unsplash.com/photo-1520638889638-ef2b9ad8c393?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3d01130a1e1ccfc42da6c9a8e4ec83c6&auto=format&fit=crop&w=1650&q=80");
   background-attachment: fixed;
   background-position: center;
-}
+}*/
 
 .sport {
   background-image: url("https://images.unsplash.com/photo-1532471965572-092fb677a6a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f19e17263e2cb9cdb2de42ef40a35933&auto=format&fit=crop&w=2734&q=80");
@@ -237,7 +236,7 @@ h1.index {
 }
 
 .box_transparent_30 {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   color: white;
   font-size: 1.5em;
   line-height: 1.5em;
