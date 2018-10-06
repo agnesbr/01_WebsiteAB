@@ -6494,7 +6494,8 @@ h1.index {
   letter-spacing: 0.1em;
   line-height: 100%;
   font-size: 4em;
-  hyphens: manual; }
+  hyphens: manual;
+  padding-left: 3.8rem; }
 
 .box_referenzes_m {
   padding-top: 1em; }
@@ -6502,7 +6503,8 @@ h1.index {
 .box_iam {
   display: flex;
   height: 45vh;
-  width: 100vw; }
+  width: 100vw;
+  padding-bottom: 3rem; }
 
 .box_iam > h2 {
   color: black; }
@@ -6535,8 +6537,8 @@ a:hover,
 .overflow_scroll {
   overflow-x: scroll;
   overflow-y: hidden;
-  padding-left: 1.5rem;
-  padding-rigt: 1.5rem; }
+  padding-left: 4rem;
+  padding-rigt: 4rem; }
 
 .content_referenzen {
   width: 200%; }
