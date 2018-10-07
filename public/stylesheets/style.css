@@ -6312,6 +6312,18 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  font-family: "Nixie One", cursive;
+  color: black;
+  letter-spacing: 0.1rem; }
+
 /* head intro */
 .intro_zeile {
   display: flex;
@@ -6484,22 +6496,10 @@ h2 {
     padding-left: 0.3rem;
     border-left: 0.3rem solid white; } }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box; }
-
-html,
-body {
-  height: 100%;
-  font-family: "Nixie One", cursive;
-  color: black;
-  letter-spacing: 0.1em; }
-
 /* fonts */
 .Nixie_One {
   font-family: "Nixie One", cursive;
-  letter-spacing: 0.1em; }
+  letter-spacing: 0.1rem; }
 
 /* vh hights */
 .box_vh_100 {
@@ -6684,5 +6684,41 @@ a:hover,
   content: url "images/ab-freiform.png/10/10";
   color: red;
   position: absolute; }
+
+footer.bg-black {
+  display: flex;
+  padding: 0rem 2rem; }
+
+.wrapper-social-footer,
+.social-icon-footer {
+  visibility: hidden; }
+
+/* --------------------------------------------------- */
+@media (max-width: 768px) {
+  /* makes the top icon fixed unvisible*/
+  .wrapper-social-fixed {
+    visibility: hidden; }
+  .wrapper-social-footer,
+  .social-icon-footer {
+    visibility: visible; }
+  .wrapper-social-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; }
+  .social-icon-footer {
+    display: inlinde;
+    width: 4rem;
+    height: 4rem;
+    margin: 0em 0.2em 0.8em 0.2em;
+    text-align: center;
+    font-size: 3rem; } }
+
+/* --------------------------------------------------- */
+@media (max-width: 420px) {
+  footer.bg-black {
+    display: flex;
+    padding: 0rem 2rem; } }
 
 /*# sourceMappingURL=style.css.map */

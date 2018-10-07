@@ -1,6 +1,5 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "grid";
-@import "header";
 
 *,
 *::before,
@@ -13,14 +12,15 @@ body {
   height: 100%;
   font-family: "Nixie One", cursive;
   color: black;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
 }
+@import "header";
 
 /* fonts */
 
 .Nixie_One {
   font-family: "Nixie One", cursive;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
 }
 
 /* vh hights */
@@ -244,3 +244,4 @@ a:hover,
   color: red;
   position: absolute;
 }
+@import "footer";

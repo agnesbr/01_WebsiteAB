@@ -1,0 +1,47 @@
+footer.bg-black {
+  display: flex;
+  padding: 0rem 2rem;
+}
+
+.wrapper-social-footer,
+.social-icon-footer {
+  visibility: hidden;
+}
+
+/* --------------------------------------------------- */
+
+@media (max-width: 768px) {
+  /* makes the top icon fixed unvisible*/
+  .wrapper-social-fixed {
+    visibility: hidden;
+  }
+  .wrapper-social-footer,
+  .social-icon-footer {
+    visibility: visible;
+  }
+
+  .wrapper-social-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .social-icon-footer {
+    display: inlinde;
+    width: 4rem;
+    height: 4rem;
+    margin: 0em 0.2em 0.8em 0.2em;
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+/* --------------------------------------------------- */
+
+@media (max-width: 420px) {
+  footer.bg-black {
+    display: flex;
+    padding: 0rem 2rem;
+  }
+}
