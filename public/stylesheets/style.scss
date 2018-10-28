@@ -1,5 +1,5 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
-@import "grid";
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'grid';
 
 *,
 *::before,
@@ -10,16 +10,16 @@
 html,
 body {
   height: 100%;
-  font-family: "Nixie One", cursive;
+  font-family: 'Nixie One', cursive;
   color: black;
   letter-spacing: 0.1rem;
 }
-@import "header";
+@import 'header';
 
 /* fonts */
 
 .Nixie_One {
-  font-family: "Nixie One", cursive;
+  font-family: 'Nixie One', cursive;
   letter-spacing: 0.1rem;
 }
 
@@ -59,37 +59,19 @@ body {
   background-position: top;
 }
 
-/*
 .intro {
-  background-image: url("https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=452c9055d0f7d7db744fb505f6d7fd68&auto=format&fit=crop&w=1650&q=80");
-  background-attachment: fixed;
-}*/
-
-/*
-.intro {
-  background-image: url("https://images.unsplash.com/photo-1482160549825-59d1b23cb208?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b4a958f345cf53a6fd0778a81ab68005&auto=format&fit=crop&w=1650&q=80");
-  background-attachment: fixed;
-}*/
-
-.intro {
-  background-image: url("https://images.unsplash.com/photo-1521249664898-864e6c1b6d5c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7111c5ca32f0551dc6966eeeb08d01c&auto=format&fit=crop&w=1650&q=80");
+  background-image: url('https://images.unsplash.com/photo-1521249664898-864e6c1b6d5c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7111c5ca32f0551dc6966eeeb08d01c&auto=format&fit=crop&w=1650&q=80');
   background-attachment: fixed;
 }
 
 .pat {
-  background-image: url("https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-0.3.5&s=98bb3e4a0d0beb27d19c8ba645c7421e&auto=format&fit=crop&w=1650&q=80");
+  background-image: url('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-0.3.5&s=98bb3e4a0d0beb27d19c8ba645c7421e&auto=format&fit=crop&w=1650&q=80');
   background-attachment: fixed;
   background-position: center;
 }
 
-/*.pat {
-  background-image: url("https://images.unsplash.com/photo-1520638889638-ef2b9ad8c393?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3d01130a1e1ccfc42da6c9a8e4ec83c6&auto=format&fit=crop&w=1650&q=80");
-  background-attachment: fixed;
-  background-position: center;
-}*/
-
 .sport {
-  background-image: url("https://images.unsplash.com/photo-1532471965572-092fb677a6a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f19e17263e2cb9cdb2de42ef40a35933&auto=format&fit=crop&w=2734&q=80");
+  background-image: url('https://images.unsplash.com/photo-1532471965572-092fb677a6a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f19e17263e2cb9cdb2de42ef40a35933&auto=format&fit=crop&w=2734&q=80');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -115,6 +97,7 @@ body {
   font-size: 3em;
   color: black;
 }
+
 .arrow-up:hover {
   color: salmon;
 }
@@ -122,7 +105,9 @@ body {
 .arrow-visible {
   visibility: visible;
 }
-@import "passion_love";
+
+//@import "iam";
+@import 'passion_love';
 /* nav --*/
 
 .nav_container {
@@ -154,7 +139,7 @@ body {
 }
 
 .headline_header {
-  font-family: "Nixie One", cursive;
+  font-family: 'Nixie One', cursive;
   letter-spacing: 0.1em;
   font-size: 7em;
   line-height: 90%;
@@ -163,7 +148,7 @@ body {
 }
 
 .headline_row {
-  font-family: "Nixie One", cursive;
+  font-family: 'Nixie One', cursive;
   letter-spacing: 0.1rem;
   line-height: 100%;
   font-size: 4em;
@@ -172,7 +157,7 @@ body {
 }
 
 .headline_row_no_m {
-  font-family: "Nixie One", cursive;
+  font-family: 'Nixie One', cursive;
   letter-spacing: 0.1em;
   line-height: 100%;
   font-size: 4em;
@@ -240,8 +225,8 @@ a:hover,
 }
 
 .quote::before {
-  content: url ("images/ab-freiform.png/10/10");
+  content: url ('images/ab-freiform.png/10/10');
   color: red;
   position: absolute;
 }
-@import "footer";
+@import 'footer';
